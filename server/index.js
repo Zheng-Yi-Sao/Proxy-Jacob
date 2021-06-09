@@ -15,6 +15,6 @@ app.listen(port, ()=>{
 
 app.get('/dp/:productid', function(req, res) { //refactor to include /dp/:productid
   console.log(req)
-  res.sendFile(path.join(__dirname, '/../public/Index.html'))
+  res.sendFile(path.join(__dirname, '/../public/index.html'))
 })
 
